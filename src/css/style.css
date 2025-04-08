@@ -1,5 +1,7 @@
 @import "./variables.css";
 @import "./reset.css";
+@import "./product.css";
+@import "./btn.css";
 
 @font-face {
     font-family: 'Amazon Ember';

@@ -1,0 +1,9 @@
+.btn-add {
+    border-radius: 36px;
+    background-color: var(--button-default-background);
+    border: 1px solid var(--button-default-border);
+    display: inline-block;
+    width: 134px;
+    height: 36px;
+    margin-left: 0.5rem;
+}

@@ -31,4 +31,7 @@
     --button-active-background:#ff9900;
     --button-active-border:#007185;
 
+    --transparency-mask: rgba(0, 0, 0, 0.04);
+    --transparency-overlay: rgba(0, 0, 0, 0.6);
+
 }

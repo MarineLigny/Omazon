@@ -10,12 +10,13 @@ function App() {
       <main>
         <section className="products">
           <h2>Tous nos produits</h2>
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          <ul className="products-list">
+            <li><ProductCard /></li>
+            <li><ProductCard /></li>
+            <li><ProductCard /></li>
+            <li><ProductCard /></li>
+            <li><ProductCard /></li>
+          </ul> 
         </section>
         
       </main>

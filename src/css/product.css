@@ -66,3 +66,17 @@
 .product-card_price-cents {
     font-size: 13px;
 }
+
+@media (min-width:700px) {
+    .products-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:1100px) {
+    .products-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    }
+}

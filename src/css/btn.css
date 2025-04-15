@@ -4,7 +4,8 @@
     border: 1px solid var(--button-default-border);
     display: inline-block;
     width: 50%;
-    height: 36px;
+    height: 70%;
+    padding: 0.5rem;
     margin-left: 0.5rem;
 }
 .btn-add:hover {

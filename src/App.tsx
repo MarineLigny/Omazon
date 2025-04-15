@@ -1,6 +1,8 @@
 //import { useState } from 'react'
 
-import ProductCard from "./components/ProductCard"
+import Categories from "./components/Categories"
+import NewProducts from "./components/NewProducts"
+import Products from "./components/Products"
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -8,16 +10,9 @@ function App() {
   return (
     <div>
       <main>
-        <section className="products">
-          <h2>Tous nos produits</h2>
-          <ul className="products-list">
-            <li><ProductCard /></li>
-            <li><ProductCard /></li>
-            <li><ProductCard /></li>
-            <li><ProductCard /></li>
-            <li><ProductCard /></li>
-          </ul> 
-        </section>
+        <Categories />
+        <NewProducts />
+        <Products />
         
       </main>
     </div>

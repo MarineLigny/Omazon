@@ -2,27 +2,8 @@
 @import "./reset.css";
 @import "./product.css";
 @import "./btn.css";
+@import "./text.css";
 
-@font-face {
-    font-family: 'Amazon Ember';
-    src: url('./assets/fonts/amazon-ember-400.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Amazon Ember';
-    src: url('./assets/fonts/amazon-ember-500.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Amazon Ember';
-    src: url('./assets/fonts/amazon-ember-700.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-  }
 
 
 

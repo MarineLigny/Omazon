@@ -3,7 +3,11 @@
     background-color: var(--button-default-background);
     border: 1px solid var(--button-default-border);
     display: inline-block;
-    width: 134px;
+    width: 50%;
     height: 36px;
     margin-left: 0.5rem;
+}
+.btn-add:hover {
+    border: 1px solid var(--button-hover-border);
+    background: var(--button-hover-background);
 }
